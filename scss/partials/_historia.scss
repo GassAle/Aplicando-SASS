@@ -1,0 +1,97 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: $tamaño-caja;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body-historia {
+    @extend .body;
+
+    nav {
+        @include texto-al-centro;
+
+        .simbolo-izq {
+            @extend .simbolo-izq;
+        }
+
+        .simbolo-der {
+            @extend .simbolo-der;
+        }
+
+        a {
+            @extend .nav-a;
+
+            &:hover {
+                @extend .hover;
+            }
+        }
+    }
+
+    .main-historia {
+        h1 {
+            font-size: 50px;
+            text-decoration: underline;
+            margin-top: 40px;
+            @include texto-al-centro;
+        }
+
+        .article-inicios {
+            h2 {
+                @include texto-al-centro;
+                font-size: 50px;
+                text-decoration: underline;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 25px;
+                line-height: 30px;
+                width: 650px;
+                margin-left: 650px;
+            }
+
+        }
+
+        .article-exito {
+            h2 {
+                @include texto-al-centro;
+                font-size: 40px;
+                text-decoration: underline;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 25px;
+                line-height: 30px;
+                width: 650px;
+                margin-left: 650px;
+            }
+        }
+    }
+
+    .footer-historia {
+        background-image: linear-gradient(to right, rgb(221, 90, 90), rgb(58, 58, 198));
+        border-color: rgb(20, 18, 18);
+        border-style: double;
+        width: 100vw;
+        margin: auto;
+        text-align: $alinear-al-centro;
+
+        h4 {
+            @extend .footer-h4;
+        }
+
+        a {
+            @extend .footer-a;
+        }
+    }
+
+}

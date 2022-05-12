@@ -1,1 +1,9 @@
-@import "partials/index"
+@import "../variables/variables";
+@import "sass2/extend";
+@import "sass2/mixins";
+@import "sass2/maps";
+@import "partials/index";
+@import "partials/historia";
+@import "partials/discografia";
+@import "partials/galeria";
+@import "partials/contacto";

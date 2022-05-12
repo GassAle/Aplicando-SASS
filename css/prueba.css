@@ -1,77 +1,516 @@
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
+  background-image: linear-gradient(to right, #c83333, #2d2dae); }
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
+  background-image: linear-gradient(to right, #c83333, #2d2dae); }
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
-body {
+.body-index nav {
+  text-align: center; }
+
+.body-index .main-index h1 {
+  font-size: 400%;
+  text-align: center;
+  margin: 40px 0px;
+  text-decoration: underline; }
+
+.body-index .main-index h2 {
+  text-align: center;
+  font-size: 200%;
+  text-decoration: underline; }
+
+.body-index .main-index div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 50px; }
+
+.body-index .main-index img {
+  height: 500px;
+  margin: auto; }
+
+.body-index .main-index p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 400px;
+  margin-left: 400px;
+  padding: 15px;
+  border: 3px double black; }
+
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
   background-image: linear-gradient(to right, #c83333, #2d2dae); }
-  body nav {
-    text-align: center; }
-    body nav .simbolo-izq {
-      position: absolute;
-      left: 70px;
-      width: 80px;
-      height: 80px; }
-    body nav .simbolo-der {
-      position: absolute;
-      right: 70px;
-      width: 80px;
-      height: 80px; }
-    body nav a {
-      color: #141212;
-      text-decoration: none;
-      font-size: 25px;
-      border-color: #141212;
-      border-style: groove;
-      padding: 10px;
-      margin: 10px 20px;
-      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-      transition: color, 2s; }
-      body nav a:hover {
-        color: rgba(15, 14, 14, 0.084);
-        font-style: italic; }
-  body main h1 {
-    font-size: 400%;
-    text-align: center;
-    margin: 40px 0px;
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.body-historia nav {
+  text-align: center; }
+
+.body-historia .main-historia h1 {
+  font-size: 50px;
+  text-decoration: underline;
+  margin-top: 40px;
+  text-align: center; }
+
+.body-historia .main-historia .article-inicios h2 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+
+.body-historia .main-historia .article-inicios p {
+  font-size: 25px;
+  line-height: 30px;
+  width: 650px;
+  margin-left: 650px; }
+
+.body-historia .main-historia .article-exito h2 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.body-historia .main-historia .article-exito p {
+  font-size: 25px;
+  line-height: 30px;
+  width: 650px;
+  margin-left: 650px; }
+
+.body-historia .footer-historia {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  text-align: center; }
+
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
+  background-image: linear-gradient(to right, #c83333, #2d2dae); }
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.body-discografia nav {
+  text-align: center; }
+
+.body-discografia .grid-main-discografia h1 {
+  font-size: 60px;
+  line-height: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-align: center; }
+
+.body-discografia .grid-main-discografia h2 {
+  font-size: 35px;
+  line-height: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-align: center; }
+
+.body-discografia .grid-main-discografia .grid-section-discografia {
+  display: grid;
+  grid-template-areas: "night-visions smoke-mirrors evolve" "origins mercury none";
+  padding: 0% 10% 10% 10%; }
+  .body-discografia .grid-main-discografia .grid-section-discografia .night-visions {
+    grid-area: night-visions; }
+  .body-discografia .grid-main-discografia .grid-section-discografia .smoke-mirrors {
+    grid-area: smoke-mirrors; }
+  .body-discografia .grid-main-discografia .grid-section-discografia .evolve {
+    grid-area: evolve; }
+  .body-discografia .grid-main-discografia .grid-section-discografia .origins {
+    grid-area: origins; }
+  .body-discografia .grid-main-discografia .grid-section-discografia .mercury {
+    grid-area: mercury; }
+
+.body-discografia .footer-discografia {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  text-align: center; }
+
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
+  background-image: linear-gradient(to right, #c83333, #2d2dae); }
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.body-galeria nav {
+  text-align: center; }
+
+.body-galeria .main-galeria {
+  text-align: center; }
+  .body-galeria .main-galeria h1 {
+    margin-top: 50px;
+    text-decoration: underline;
+    font-size: 60px; }
+  .body-galeria .main-galeria h2 {
+    text-decoration: underline;
+    font-size: 40px; }
+  .body-galeria .main-galeria .fotos-conciertos .foto-concierto-2 {
+    width: 675px;
+    height: 450px; }
+
+.body-galeria .footer-galeria {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  text-align: center; }
+
+.body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
+  background-image: linear-gradient(to right, #c83333, #2d2dae); }
+
+.simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
+  position: absolute;
+  left: 70px;
+  width: 80px;
+  height: 80px; }
+
+.simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
+  position: absolute;
+  right: 70px;
+  width: 80px;
+  height: 80px; }
+
+.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+  color: #141212;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: #141212;
+  border-style: groove;
+  padding: 10px;
+  margin: 10px 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+  transition: color, 2s; }
+
+.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+  color: rgba(244, 234, 234, 0.903);
+  font-style: italic; }
+
+.footer, .body-index .footer-index, .body-contacto .footer-contacto {
+  background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
+  border-color: #141212;
+  border-style: double;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  margin-bottom: 5px; }
+
+.footer-a, .body-index .footer-index a, .body-historia .footer-historia a, .body-discografia .footer-discografia a, .body-galeria .footer-galeria a, .body-contacto .footer-contacto a {
+  text-decoration: none;
+  color: #31055b;
+  font-size: 22px;
+  margin: 0px 10px;
+  border-color: #141212;
+  border-style: groove; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.body-contacto nav {
+  text-align: center; }
+
+.body-contacto .main-contacto {
+  width: 550px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center; }
+  .body-contacto .main-contacto h1 {
+    font-size: 50px;
     text-decoration: underline; }
-  body main h2 {
-    text-align: center;
-    font-size: 200%;
-    text-decoration: underline; }
-  body main div {
-    display: flex;
-    flex-direction: row-reverse;
+  .body-contacto .main-contacto form {
     margin-top: 50px; }
-  body main img {
-    height: 500px;
-    margin: auto; }
-  body main p {
-    font-size: 20px;
-    line-height: 30px;
-    width: 400px;
-    margin-left: 400px;
-    padding: 15px;
-    border: 3px double black; }
-  body footer {
-    background-image: linear-gradient(to right, #dd5a5a, #3a3ac6);
-    border-color: #141212;
-    border-style: double;
-    width: 100vw;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    text-align: center; }
-    body footer h4 {
-      text-align: center;
-      font-size: 25px;
-      text-decoration: underline;
-      margin-bottom: 5px; }
-    body footer a {
-      text-decoration: none;
-      color: #31055b;
-      font-size: 22px;
-      margin: 0px 10px;
-      border-color: #141212;
-      border-style: groove; }
+  .body-contacto .main-contacto label,
+  .body-contacto .main-contacto .opinion {
+    color: rgba(0, 0, 0, 0.916);
+    font-weight: 600; }
+  .body-contacto .main-contacto textarea {
+    width: 550px;
+    height: 110px;
+    transition: 2s all; }
+    .body-contacto .main-contacto textarea:focus {
+      width: 500px;
+      font-size: 20px; }

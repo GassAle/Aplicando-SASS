@@ -1,0 +1,6 @@
+@import "../variables/variables";
+
+@mixin texto-al-centro {
+    text-align: map-get($redes, centro);
+}
+

@@ -1,7 +1,6 @@
 {
   "name": "aplicando-sass-medina",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
@@ -13,5 +12,14 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GassAle/Aplicando-SASS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GassAle/Aplicando-SASS/issues"
+  },
+  "homepage": "https://github.com/GassAle/Aplicando-SASS#readme",
+  "description": ""
 }
