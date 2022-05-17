@@ -67,14 +67,27 @@
     }
 
     .footer-contacto {
-        @extend .footer;
+        background-color: rgb(145, 171, 95);
+        border-color: rgb(20, 18, 18);
+        border-style:double;
+        width: 75vw;
+        margin: auto;
+        text-align: $alinear-al-centro;
+        margin-top: 159px;
 
         h4 {
             @extend .footer-h4;
         }
 
+        p {
+            @extend .footer-p;
+        }
+
         a {
             @extend .footer-a;
+            img {
+                @extend .footer-a-img;
+            }
         }
     }
 }

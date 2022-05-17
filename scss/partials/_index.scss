@@ -2,8 +2,7 @@
 @import "../sass2/extend";
 @import "../sass2/mixins";
 
-
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: $tamaño-caja;
@@ -71,12 +70,27 @@
     .footer-index {
         @extend .footer;
 
+        .logo-izq {
+            @extend .logo-izq;
+        }
+
+        .logo-der {
+            @extend .logo-der;
+        }
+
         h4 {
             @extend .footer-h4;
         }
 
+        p {
+            @extend .footer-p;
+        }
+
         a {
             @extend .footer-a;
+            img {
+                @extend .footer-a-img;
+            }
         }
     }
 }

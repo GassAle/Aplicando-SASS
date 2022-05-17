@@ -1,0 +1,602 @@
+@media (max-width: 480px) {
+    .body-index {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                position: $posicion-absoluta;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .simbolo-der {
+                position: $posicion-absoluta;
+                right: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            a {
+                color: #141212;
+                text-decoration: none;
+                font-size: 15px;
+                border-color: rgb(20, 18, 18);
+                border-style: groove;
+                padding: 5px;
+                margin: 3px 1px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                transition: color, 2s;
+
+                &:hover {
+                    color: rgba(244, 234, 234, 0.903);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .main-index {
+            h1 {
+                font-size: 200%;
+                text-align: map-get($redes, centro);
+                margin: 10px 0px;
+                text-decoration: underline;
+            }
+
+            h2 {
+                text-align: map-get($redes, centro);
+                font-size: 150%;
+                text-decoration: underline;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column-reverse;
+                margin-top: 25px;
+            }
+
+            img {
+                padding-top: 10px;
+                height: 250px;
+                margin: auto;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 20px;
+                width: 300px;
+                margin-left: 75px;
+                padding: 7px;
+                border: 2px double black;
+            }
+        }
+
+        .footer-index {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 40px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 15px;
+                text-decoration: underline;
+                margin-bottom: 2px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            a {
+                margin: 5px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+    .body-historia {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                position: $posicion-absoluta;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .simbolo-der {
+                position: $posicion-absoluta;
+                right: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            a {
+                color: #141212;
+                text-decoration: none;
+                font-size: 15px;
+                border-color: rgb(20, 18, 18);
+                border-style: groove;
+                padding: 5px;
+                margin: 3px 1px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                transition: color, 2s;
+
+                &:hover {
+                    color: rgba(244, 234, 234, 0.903);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .main-historia {
+            h1 {
+                font-size: 25px;
+                text-decoration: underline;
+                margin-top: 20px;
+                @include texto-al-centro;
+            }
+    
+            .article-inicios {
+                h2 {
+                    @include texto-al-centro;
+                    font-size: 20px;
+                    text-decoration: underline;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+    
+                p {
+                    font-size: 15px;
+                    line-height: 20px;
+                    width: 350px;
+                    margin-left: 50px;
+                }
+    
+            }
+            .article-exito {
+                h2 {
+                    @include texto-al-centro;
+                    font-size: 25px;
+                    text-decoration: underline;
+                    margin-bottom: 8px;
+                    margin-top: 8px;
+                }
+    
+                p {
+                    font-size: 20px;
+                    line-height: 20px;
+                    width: 350px;
+                    margin-left: 50px;
+                }
+            }
+        }
+
+        .footer-historia {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 40px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 15px;
+                text-decoration: underline;
+                margin-bottom: 2px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            a {
+                margin: 5px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .body-discografia {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                position: $posicion-absoluta;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .simbolo-der {
+                position: $posicion-absoluta;
+                right: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            a {
+                color: #141212;
+                text-decoration: none;
+                font-size: 15px;
+                border-color: rgb(20, 18, 18);
+                border-style: groove;
+                padding: 5px;
+                margin: 3px 1px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                transition: color, 2s;
+
+                &:hover {
+                    color: rgba(244, 234, 234, 0.903);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .grid-main-discografia {
+            h1 {
+                font-size: 30px;
+                line-height: 100px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: underline;
+                text-align: center;
+            }
+    
+            h2 {
+                font-size: 20px;
+                line-height: 50px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-decoration: underline;
+                text-align: center;
+            }
+    
+            .grid-section-discografia {
+                display: grid;
+                grid-template-areas:
+                    "night-visions"
+                    "smoke-mirrors"
+                    "evolve"
+                    "origins"
+                    "mercury";
+                padding: 0% 10% 10% 10%;
+    
+                .night-visions {
+                    grid-area: night-visions;
+                }
+    
+                .smoke-mirrors {
+                    grid-area: smoke-mirrors;
+                }
+    
+                .evolve {
+                    grid-area: evolve;
+                }
+    
+                .origins {
+                    grid-area: origins;
+                }
+    
+                .mercury {
+                    grid-area: mercury;
+                }
+            }
+        }
+
+        .footer-discografia {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 15px;
+                text-decoration: underline;
+                margin-bottom: 2px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            a {
+                margin: 5px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .body-galeria {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                position: $posicion-absoluta;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .simbolo-der {
+                position: $posicion-absoluta;
+                right: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            a {
+                color: #141212;
+                text-decoration: none;
+                font-size: 15px;
+                border-color: rgb(20, 18, 18);
+                border-style: groove;
+                padding: 5px;
+                margin: 3px 1px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                transition: color, 2s;
+
+                &:hover {
+                    color: rgba(244, 234, 234, 0.903);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .main-galeria {
+            text-align: center;
+    
+            h1 {
+                margin-top: 20px;
+                text-decoration: underline;
+                font-size: 30px;
+            }
+    
+            h2 {
+                text-decoration: underline;
+                font-size: 20px;
+            }
+    
+            img {
+                padding-right: 20px;
+                width: 200px;
+                height: 200px;
+            }
+            
+        }
+
+        .footer-galeria {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 170px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 15px;
+                text-decoration: underline;
+                margin-bottom: 2px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            a {
+                margin: 5px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .body-contacto {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                position: $posicion-absoluta;
+                left: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .simbolo-der {
+                position: $posicion-absoluta;
+                right: 0px;
+                width: 50px;
+                height: 50px;
+            }
+
+            a {
+                color: #141212;
+                text-decoration: none;
+                font-size: 15px;
+                border-color: rgb(20, 18, 18);
+                border-style: groove;
+                padding: 5px;
+                margin: 3px 1px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                transition: color, 2s;
+
+                &:hover {
+                    color: rgba(244, 234, 234, 0.903);
+                    font-style: italic;
+                }
+            }
+        }
+
+        .main-contacto {
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+
+        h1 {
+            font-size: 25px;
+            text-decoration: underline;
+        }
+
+        form {
+            margin-top: 25px;
+        }
+
+        label,
+        .opinion {
+            color: rgba(0, 0, 0, 0.916);
+            font-weight: 600;
+        }
+
+        textarea {
+            width: 300px;
+            height: 65px;
+            transition: 2s all;
+
+            &:focus {
+                width: 280px;
+                font-size: 20px;
+            }
+        }
+        }
+
+        .footer-contacto {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 110px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 10px;
+                width: 70px;
+                height: 50px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 15px;
+                text-decoration: underline;
+                margin-bottom: 2px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 5px;
+            }
+
+            a {
+                margin: 5px;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
