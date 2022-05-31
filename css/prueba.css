@@ -2,29 +2,30 @@
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -32,10 +33,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -70,29 +71,30 @@
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -100,10 +102,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -160,44 +162,47 @@
   margin-top: 50px; }
 
 .body-index .main-index img {
-  height: 500px;
-  margin: auto; }
+  height: 10%;
+  margin: auto;
+  margin-right: 15%; }
 
 .body-index .main-index p {
   font-size: 20px;
   line-height: 30px;
-  width: 400px;
-  margin-left: 400px;
   padding: 15px;
-  border: 3px double black; }
+  border: 3px double black;
+  width: 420px;
+  margin: auto;
+  margin-left: 25%; }
 
 .body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -205,10 +210,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -284,37 +289,39 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
+  width: 100%;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -322,10 +329,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -365,70 +372,75 @@
 .body-discografia nav {
   text-align: center; }
 
-.body-discografia .grid-main-discografia h1 {
+.body-discografia .flex-main-discografia h1 {
   font-size: 60px;
   line-height: 200px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline;
   text-align: center; }
 
-.body-discografia .grid-main-discografia h2 {
+.body-discografia .flex-main-discografia h2 {
   font-size: 35px;
   line-height: 80px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline;
   text-align: center; }
 
-.body-discografia .grid-main-discografia .grid-section-discografia {
-  display: grid;
-  grid-template-areas: "night-visions smoke-mirrors evolve" "origins mercury none";
-  padding: 0% 10% 10% 10%; }
-  .body-discografia .grid-main-discografia .grid-section-discografia .night-visions {
-    grid-area: night-visions; }
-  .body-discografia .grid-main-discografia .grid-section-discografia .smoke-mirrors {
-    grid-area: smoke-mirrors; }
-  .body-discografia .grid-main-discografia .grid-section-discografia .evolve {
-    grid-area: evolve; }
-  .body-discografia .grid-main-discografia .grid-section-discografia .origins {
-    grid-area: origins; }
-  .body-discografia .grid-main-discografia .grid-section-discografia .mercury {
-    grid-area: mercury; }
+.body-discografia .flex-main-discografia .flex-section-discografia-1 {
+  display: flex;
+  justify-content: space-around; }
+  .body-discografia .flex-main-discografia .flex-section-discografia-1 .night-visions {
+    width: 25%; }
+  .body-discografia .flex-main-discografia .flex-section-discografia-1 .smoke-mirrors {
+    width: 25%; }
+  .body-discografia .flex-main-discografia .flex-section-discografia-1 .evolve {
+    width: 25%; }
+
+.body-discografia .flex-main-discografia .flex-section-discografia-2 {
+  display: flex;
+  justify-content: space-evenly; }
+  .body-discografia .flex-main-discografia .flex-section-discografia-2 .origins {
+    width: 35%; }
+  .body-discografia .flex-main-discografia .flex-section-discografia-2 .mercury {
+    width: 35%; }
 
 .body-discografia .footer-discografia {
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
+  width: 100%;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -436,10 +448,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -488,45 +500,49 @@
   .body-galeria .main-galeria h2 {
     text-decoration: underline;
     font-size: 40px; }
-  .body-galeria .main-galeria .fotos-conciertos .foto-concierto-2 {
-    width: 675px;
-    height: 450px; }
+  .body-galeria .main-galeria .fotos-grupo, .body-galeria .main-galeria .fotos-conciertos {
+    width: 70%;
+    margin: auto; }
+  .body-galeria .main-galeria img {
+    height: 400px; }
 
 .body-galeria .footer-galeria {
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
+  width: 100%;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  margin-top: 30px; }
 
 .body, .body-index, .body-historia, .body-discografia, .body-galeria, .body-contacto {
   background-color: #d9d9b9; }
 
 .simbolo-izq, .body-index nav .simbolo-izq, .body-historia nav .simbolo-izq, .body-discografia nav .simbolo-izq, .body-galeria nav .simbolo-izq, .body-contacto nav .simbolo-izq {
-  position: absolute;
-  left: 150px;
   width: 80px;
   height: 80px; }
 
 .simbolo-der, .body-index nav .simbolo-der, .body-historia nav .simbolo-der, .body-discografia nav .simbolo-der, .body-galeria nav .simbolo-der, .body-contacto nav .simbolo-der {
-  position: absolute;
-  right: 150px;
   width: 80px;
   height: 80px; }
 
-.nav-a, .body-index nav a, .body-historia nav a, .body-discografia nav a, .body-galeria nav a, .body-contacto nav a {
+.div-a, .body-index nav div, .body-historia nav div, .body-discografia nav div, .body-galeria nav div, .body-contacto nav div {
+  display: flex;
+  justify-content: space-evenly; }
+
+.nav-a, .body-index nav div a, .body-historia nav div a, .body-discografia nav div a, .body-galeria nav div a, .body-contacto nav div a {
   color: #141212;
   text-decoration: none;
   font-size: 25px;
   border-color: #141212;
   border-style: groove;
   padding: 10px;
-  margin: 10px 20px;
+  margin: 5px 1px;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-  transition: color, 2s; }
+  transition: color, 2s;
+  height: 10%; }
 
-.hover, .body-index nav a:hover, .body-historia nav a:hover, .body-discografia nav a:hover, .body-galeria nav a:hover, .body-contacto nav a:hover {
+.hover, .body-index nav div a:hover, .body-historia nav div a:hover, .body-discografia nav div a:hover, .body-galeria nav div a:hover, .body-contacto nav div a:hover {
   color: rgba(244, 234, 234, 0.903);
   font-style: italic; }
 
@@ -534,10 +550,10 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
-  margin: auto;
+  width: 100%;
   text-align: center;
-  margin-top: 73px; }
+  position: absolute;
+  bottom: 0; }
 
 .footer-h4, .body-index .footer-index h4, .body-historia .footer-historia h4, .body-discografia .footer-discografia h4, .body-galeria .footer-galeria h4, .body-contacto .footer-contacto h4 {
   text-align: center;
@@ -603,39 +619,39 @@
   background-color: #91ab5f;
   border-color: #141212;
   border-style: double;
-  width: 75vw;
+  width: 100%;
   margin: auto;
   text-align: center;
-  margin-top: 159px; }
+  position: absolute;
+  bottom: 0; }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .body-index {
     background-color: #d9d9b9; }
     .body-index nav {
       text-align: center; }
       .body-index nav .simbolo-izq {
-        position: absolute;
-        left: 0px;
         width: 50px;
         height: 50px; }
       .body-index nav .simbolo-der {
-        position: absolute;
-        right: 0px;
         width: 50px;
         height: 50px; }
-      .body-index nav a {
-        color: #141212;
-        text-decoration: none;
-        font-size: 15px;
-        border-color: #141212;
-        border-style: groove;
-        padding: 5px;
-        margin: 3px 1px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-        transition: color, 2s; }
-        .body-index nav a:hover {
-          color: rgba(244, 234, 234, 0.903);
-          font-style: italic; }
+      .body-index nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-index nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 15px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 5px;
+          margin: 3px 1px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-index nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
     .body-index .main-index h1 {
       font-size: 200%;
       text-align: center;
@@ -648,16 +664,16 @@
     .body-index .main-index div {
       display: flex;
       flex-direction: column-reverse;
-      margin-top: 25px; }
+      margin-top: 40px; }
     .body-index .main-index img {
-      padding-top: 10px;
-      height: 250px;
+      padding-top: 20px;
+      height: 260px;
       margin: auto; }
     .body-index .main-index p {
       font-size: 15px;
       line-height: 20px;
       width: 300px;
-      margin-left: 75px;
+      margin: auto;
       padding: 7px;
       border: 2px double black; }
     .body-index .footer-index {
@@ -666,8 +682,7 @@
       border-style: double;
       width: 100vw;
       margin: auto;
-      text-align: center;
-      margin-top: 40px; }
+      text-align: center; }
       .body-index .footer-index .logo-izq {
         position: absolute;
         left: 10px;
@@ -696,41 +711,40 @@
     .body-historia nav {
       text-align: center; }
       .body-historia nav .simbolo-izq {
-        position: absolute;
-        left: 0px;
         width: 50px;
         height: 50px; }
       .body-historia nav .simbolo-der {
-        position: absolute;
-        right: 0px;
         width: 50px;
         height: 50px; }
-      .body-historia nav a {
-        color: #141212;
-        text-decoration: none;
-        font-size: 15px;
-        border-color: #141212;
-        border-style: groove;
-        padding: 5px;
-        margin: 3px 1px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-        transition: color, 2s; }
-        .body-historia nav a:hover {
-          color: rgba(244, 234, 234, 0.903);
-          font-style: italic; }
+      .body-historia nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-historia nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 15px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 5px;
+          margin: 3px 1px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-historia nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
     .body-historia .main-historia h1 {
-      font-size: 25px;
+      font-size: 30px;
       text-decoration: underline;
       margin-top: 20px;
       text-align: center; }
     .body-historia .main-historia .article-inicios h2 {
       text-align: center;
-      font-size: 20px;
+      font-size: 25px;
       text-decoration: underline;
       margin-top: 10px;
       margin-bottom: 10px; }
     .body-historia .main-historia .article-inicios p {
-      font-size: 15px;
+      font-size: 20px;
       line-height: 20px;
       width: 350px;
       margin-left: 50px; }
@@ -781,54 +795,59 @@
     .body-discografia nav {
       text-align: center; }
       .body-discografia nav .simbolo-izq {
-        position: absolute;
-        left: 0px;
         width: 50px;
         height: 50px; }
       .body-discografia nav .simbolo-der {
-        position: absolute;
-        right: 0px;
         width: 50px;
         height: 50px; }
-      .body-discografia nav a {
-        color: #141212;
-        text-decoration: none;
-        font-size: 15px;
-        border-color: #141212;
-        border-style: groove;
-        padding: 5px;
-        margin: 3px 1px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-        transition: color, 2s; }
-        .body-discografia nav a:hover {
-          color: rgba(244, 234, 234, 0.903);
-          font-style: italic; }
-    .body-discografia .grid-main-discografia h1 {
+      .body-discografia nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-discografia nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 15px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 5px;
+          margin: 3px 1px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-discografia nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-discografia .flex-main-discografia h1 {
       font-size: 30px;
       line-height: 100px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-decoration: underline;
       text-align: center; }
-    .body-discografia .grid-main-discografia h2 {
+    .body-discografia .flex-main-discografia h2 {
       font-size: 20px;
-      line-height: 50px;
+      line-height: 25px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       text-decoration: underline;
+      margin-left: 130%;
       text-align: center; }
-    .body-discografia .grid-main-discografia .grid-section-discografia {
-      display: grid;
-      grid-template-areas: "night-visions" "smoke-mirrors" "evolve" "origins" "mercury";
-      padding: 0% 10% 10% 10%; }
-      .body-discografia .grid-main-discografia .grid-section-discografia .night-visions {
-        grid-area: night-visions; }
-      .body-discografia .grid-main-discografia .grid-section-discografia .smoke-mirrors {
-        grid-area: smoke-mirrors; }
-      .body-discografia .grid-main-discografia .grid-section-discografia .evolve {
-        grid-area: evolve; }
-      .body-discografia .grid-main-discografia .grid-section-discografia .origins {
-        grid-area: origins; }
-      .body-discografia .grid-main-discografia .grid-section-discografia .mercury {
-        grid-area: mercury; }
+    .body-discografia .flex-main-discografia .flex-section-discografia-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 50%; }
+      .body-discografia .flex-main-discografia .flex-section-discografia-1 .night-visions h2 {
+        margin-left: 170%; }
+      .body-discografia .flex-main-discografia .flex-section-discografia-1 .evolve h2 {
+        margin-left: 170%; }
+    .body-discografia .flex-main-discografia .flex-section-discografia-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 45%; }
+      .body-discografia .flex-main-discografia .flex-section-discografia-2 .mercury h2 {
+        width: 100px;
+        margin-left: 100%; }
+    .body-discografia .flex-main-discografia iframe {
+      width: 300px; }
     .body-discografia .footer-discografia {
       background-color: #91ab5f;
       border-color: #141212;
@@ -864,28 +883,27 @@
     .body-galeria nav {
       text-align: center; }
       .body-galeria nav .simbolo-izq {
-        position: absolute;
-        left: 0px;
         width: 50px;
         height: 50px; }
       .body-galeria nav .simbolo-der {
-        position: absolute;
-        right: 0px;
         width: 50px;
         height: 50px; }
-      .body-galeria nav a {
-        color: #141212;
-        text-decoration: none;
-        font-size: 15px;
-        border-color: #141212;
-        border-style: groove;
-        padding: 5px;
-        margin: 3px 1px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-        transition: color, 2s; }
-        .body-galeria nav a:hover {
-          color: rgba(244, 234, 234, 0.903);
-          font-style: italic; }
+      .body-galeria nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-galeria nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 15px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 5px;
+          margin: 3px 1px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-galeria nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
     .body-galeria .main-galeria {
       text-align: center; }
       .body-galeria .main-galeria h1 {
@@ -893,10 +911,10 @@
         text-decoration: underline;
         font-size: 30px; }
       .body-galeria .main-galeria h2 {
+        margin-top: 40px;
         text-decoration: underline;
         font-size: 20px; }
       .body-galeria .main-galeria img {
-        padding-right: 20px;
         width: 200px;
         height: 200px; }
     .body-galeria .footer-galeria {
@@ -906,7 +924,9 @@
       width: 100vw;
       margin: auto;
       text-align: center;
-      margin-top: 170px; }
+      margin-top: 170px;
+      position: absolute;
+      bottom: 0; }
       .body-galeria .footer-galeria .logo-izq {
         position: absolute;
         left: 10px;
@@ -935,28 +955,27 @@
     .body-contacto nav {
       text-align: center; }
       .body-contacto nav .simbolo-izq {
-        position: absolute;
-        left: 0px;
         width: 50px;
         height: 50px; }
       .body-contacto nav .simbolo-der {
-        position: absolute;
-        right: 0px;
         width: 50px;
         height: 50px; }
-      .body-contacto nav a {
-        color: #141212;
-        text-decoration: none;
-        font-size: 15px;
-        border-color: #141212;
-        border-style: groove;
-        padding: 5px;
-        margin: 3px 1px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-        transition: color, 2s; }
-        .body-contacto nav a:hover {
-          color: rgba(244, 234, 234, 0.903);
-          font-style: italic; }
+      .body-contacto nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-contacto nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 15px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 5px;
+          margin: 3px 1px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-contacto nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
     .body-contacto .main-contacto {
       width: 300px;
       margin: auto;
@@ -978,6 +997,12 @@
         .body-contacto .main-contacto textarea:focus {
           width: 280px;
           font-size: 20px; }
+      .body-contacto .main-contacto .input-enviar,
+      .body-contacto .main-contacto .input-limpiar {
+        margin-top: 15px; }
+      .body-contacto .main-contacto .input-limpiar {
+        width: 150px;
+        text-align: center; }
     .body-contacto .footer-contacto {
       background-color: #91ab5f;
       border-color: #141212;
@@ -1009,3 +1034,364 @@
         .body-contacto .footer-contacto a img {
           width: 25px;
           height: 25px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .body-index {
+    background-color: #d9d9b9; }
+    .body-index nav {
+      text-align: center; }
+      .body-index nav .simbolo-izq {
+        width: 60px;
+        height: 60px; }
+      .body-index nav .simbolo-der {
+        width: 60px;
+        height: 60px; }
+      .body-index nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-index nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 20px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 7px;
+          margin: 5px 2px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-index nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-index .main-index h1 {
+      font-size: 240%;
+      text-align: center;
+      margin: 18px 0px;
+      text-decoration: underline; }
+    .body-index .main-index h2 {
+      text-align: center;
+      font-size: 180%;
+      text-decoration: underline; }
+    .body-index .main-index div {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 40px; }
+    .body-index .main-index img {
+      padding-top: 30px;
+      height: 310px;
+      margin: auto; }
+    .body-index .main-index p {
+      font-size: 20px;
+      line-height: 25px;
+      width: 380px;
+      margin: auto;
+      padding: 12px;
+      text-align: center;
+      border: 2px double black; }
+    .body-index .footer-index {
+      background-color: #91ab5f;
+      border-color: #141212;
+      border-style: double;
+      width: 100vw;
+      margin: auto;
+      text-align: center; }
+      .body-index .footer-index .logo-izq {
+        position: absolute;
+        left: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-index .footer-index .logo-der {
+        position: absolute;
+        right: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-index .footer-index h4 {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        margin-bottom: 4px; }
+      .body-index .footer-index p {
+        text-decoration: underline;
+        margin-bottom: 8px; }
+      .body-index .footer-index a {
+        margin: 8px; }
+        .body-index .footer-index a img {
+          width: 30px;
+          height: 30px; }
+  .body-historia {
+    background-color: #d9d9b9;
+    overflow-x: hidden; }
+    .body-historia nav {
+      text-align: center; }
+      .body-historia nav .simbolo-izq {
+        width: 60px;
+        height: 60px; }
+      .body-historia nav .simbolo-der {
+        width: 60px;
+        height: 60px; }
+      .body-historia nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-historia nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 20px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 7px;
+          margin: 5px 2px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-historia nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-historia .main-historia h1 {
+      font-size: 40px;
+      text-decoration: underline;
+      margin-top: 30px;
+      text-align: center; }
+    .body-historia .main-historia .article-inicios h2 {
+      text-align: center;
+      font-size: 28px;
+      text-decoration: underline;
+      margin-top: 14px;
+      margin-bottom: 14px; }
+    .body-historia .main-historia .article-inicios p {
+      font-size: 25px;
+      line-height: 24px;
+      width: 380px;
+      margin: auto; }
+    .body-historia .main-historia .article-exito h2 {
+      text-align: center;
+      font-size: 28px;
+      text-decoration: underline;
+      margin-bottom: 11px;
+      margin-top: 11px; }
+    .body-historia .main-historia .article-exito p {
+      font-size: 25px;
+      line-height: 24px;
+      width: 380px;
+      margin: auto; }
+    .body-historia .footer-historia {
+      background-color: #91ab5f;
+      border-color: #141212;
+      border-style: double;
+      width: 100vw;
+      margin: auto;
+      text-align: center;
+      margin-top: 10px; }
+      .body-historia .footer-historia .logo-izq {
+        position: absolute;
+        left: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-historia .footer-historia .logo-der {
+        position: absolute;
+        right: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-historia .footer-historia h4 {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        margin-bottom: 4px; }
+      .body-historia .footer-historia p {
+        text-decoration: underline;
+        margin-bottom: 8px; }
+      .body-historia .footer-historia a {
+        margin: 8px; }
+        .body-historia .footer-historia a img {
+          width: 30px;
+          height: 30px; }
+  .body-discografia {
+    background-color: #d9d9b9; }
+    .body-discografia nav {
+      text-align: center; }
+      .body-discografia nav .simbolo-izq {
+        width: 60px;
+        height: 60px; }
+      .body-discografia nav .simbolo-der {
+        width: 60px;
+        height: 60px; }
+      .body-discografia nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-discografia nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 20px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 7px;
+          margin: 5px 2px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-discografia nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-discografia .flex-section-discografia-1 {
+      display: flex;
+      justify-content: space-around; }
+      .body-discografia .flex-section-discografia-1 .night-visions {
+        width: 20%;
+        margin: auto; }
+      .body-discografia .flex-section-discografia-1 .smoke-mirrors {
+        width: 20%;
+        margin: auto; }
+      .body-discografia .flex-section-discografia-1 .evolve {
+        width: 20%;
+        margin: auto; }
+    .body-discografia .flex-section-discografia-2 {
+      display: flex;
+      justify-content: space-evenly; }
+      .body-discografia .flex-section-discografia-2 .origins {
+        width: 35%; }
+      .body-discografia .flex-section-discografia-2 .mercury {
+        width: 35%; }
+    .body-discografia iframe {
+      width: 250px; }
+  .footer-discografia {
+    background-color: #91ab5f;
+    border-color: #141212;
+    border-style: double;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px; }
+    .footer-discografia .logo-izq, .footer-discografia .body-index .footer-index .logo-izq, .body-index .footer-index .footer-discografia .logo-izq {
+      position: absolute;
+      left: 13px;
+      width: 80px;
+      height: 60px; }
+    .footer-discografia .logo-der, .footer-discografia .body-index .footer-index .logo-der, .body-index .footer-index .footer-discografia .logo-der {
+      position: absolute;
+      right: 13px;
+      width: 80px;
+      height: 60px; }
+    .footer-discografia h4 {
+      text-align: center;
+      font-size: 18px;
+      text-decoration: underline;
+      margin-bottom: 4px; }
+    .footer-discografia p {
+      text-decoration: underline;
+      margin-bottom: 8px; }
+    .footer-discografia a {
+      margin: 8px; }
+      .footer-discografia a img {
+        width: 30px;
+        height: 30px; }
+  .body-galeria {
+    background-color: #d9d9b9;
+    overflow-x: hidden; }
+    .body-galeria nav {
+      text-align: center; }
+      .body-galeria nav .simbolo-izq {
+        width: 60px;
+        height: 60px; }
+      .body-galeria nav .simbolo-der {
+        width: 60px;
+        height: 60px; }
+      .body-galeria nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-galeria nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 20px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 7px;
+          margin: 5px 2px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-galeria nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-galeria .footer-galeria {
+      background-color: #91ab5f;
+      border-color: #141212;
+      border-style: double;
+      width: 100vw;
+      margin: auto;
+      text-align: center;
+      margin-top: 10px; }
+      .body-galeria .footer-galeria .logo-izq {
+        position: absolute;
+        left: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-galeria .footer-galeria .logo-der {
+        position: absolute;
+        right: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-galeria .footer-galeria h4 {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        margin-bottom: 4px; }
+      .body-galeria .footer-galeria p {
+        text-decoration: underline;
+        margin-bottom: 8px; }
+      .body-galeria .footer-galeria a {
+        margin: 8px; }
+        .body-galeria .footer-galeria a img {
+          width: 30px;
+          height: 30px; }
+  .body-contacto {
+    background-color: #d9d9b9; }
+    .body-contacto nav {
+      text-align: center; }
+      .body-contacto nav .simbolo-izq {
+        width: 60px;
+        height: 60px; }
+      .body-contacto nav .simbolo-der {
+        width: 60px;
+        height: 60px; }
+      .body-contacto nav div {
+        display: flex;
+        justify-content: space-evenly; }
+        .body-contacto nav div a {
+          color: #141212;
+          text-decoration: none;
+          font-size: 20px;
+          border-color: #141212;
+          border-style: groove;
+          padding: 7px;
+          margin: 5px 2px;
+          background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+          transition: color, 2s; }
+          .body-contacto nav div a:hover {
+            color: rgba(244, 234, 234, 0.903);
+            font-style: italic; }
+    .body-contacto .footer-contacto {
+      background-color: #91ab5f;
+      border-color: #141212;
+      border-style: double;
+      width: 100vw;
+      margin: auto;
+      text-align: center;
+      margin-top: 10px; }
+      .body-contacto .footer-contacto .logo-izq {
+        position: absolute;
+        left: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-contacto .footer-contacto .logo-der {
+        position: absolute;
+        right: 13px;
+        width: 80px;
+        height: 60px; }
+      .body-contacto .footer-contacto h4 {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: underline;
+        margin-bottom: 4px; }
+      .body-contacto .footer-contacto p {
+        text-decoration: underline;
+        margin-bottom: 8px; }
+      .body-contacto .footer-contacto a {
+        margin: 8px; }
+        .body-contacto .footer-contacto a img {
+          width: 30px;
+          height: 30px; } }

@@ -1,0 +1,546 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .body-index {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                width: 60px;
+                height: 60px;
+            }
+
+            .simbolo-der {
+                width: 60px;
+                height: 60px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 7px;
+                    margin: 5px 2px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .main-index {
+            h1 {
+                font-size: 240%;
+                text-align: map-get($redes, centro);
+                margin: 18px 0px;
+                text-decoration: underline;
+            }
+
+            h2 {
+                text-align: map-get($redes, centro);
+                font-size: 180%;
+                text-decoration: underline;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column-reverse;
+                margin-top: 40px;
+            }
+
+            img {
+                padding-top: 30px;
+                height: 310px;
+                margin: auto;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 25px;
+                width: 380px;
+                margin: auto;
+                padding: 12px;
+                text-align: center;
+                border: 2px double black;
+            }
+        }
+
+        .footer-index {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 18px;
+                text-decoration: underline;
+                margin-bottom: 4px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 8px;
+            }
+
+            a {
+                margin: 8px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .body-historia {
+        background-color: rgb(217, 217, 185);
+        overflow-x: hidden;
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                width: 60px;
+                height: 60px;
+            }
+
+            .simbolo-der {
+                width: 60px;
+                height: 60px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 7px;
+                    margin: 5px 2px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .main-historia {
+            h1 {
+                font-size: 40px;
+                text-decoration: underline;
+                margin-top: 30px;
+                @include texto-al-centro;
+            }
+
+            .article-inicios {
+                h2 {
+                    @include texto-al-centro;
+                    font-size: 28px;
+                    text-decoration: underline;
+                    margin-top: 14px;
+                    margin-bottom: 14px;
+                }
+
+                p {
+                    font-size: 25px;
+                    line-height: 24px;
+                    width: 380px;
+                    margin: auto;
+                }
+
+            }
+
+            .article-exito {
+                h2 {
+                    @include texto-al-centro;
+                    font-size: 28px;
+                    text-decoration: underline;
+                    margin-bottom: 11px;
+                    margin-top: 11px;
+                }
+
+                p {
+                    font-size: 25px;
+                    line-height: 24px;
+                    width: 380px;
+                    margin: auto;
+                }
+            }
+        }
+
+        .footer-historia {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 10px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 18px;
+                text-decoration: underline;
+                margin-bottom: 4px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 8px;
+            }
+
+            a {
+                margin: 8px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .body-discografia {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                width: 60px;
+                height: 60px;
+            }
+
+            .simbolo-der {
+                width: 60px;
+                height: 60px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 7px;
+                    margin: 5px 2px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .flex-section-discografia-1 {
+            display: flex;
+            justify-content: space-around;
+
+            .night-visions {
+                width: 20%;
+                margin: auto;
+            }
+
+            .smoke-mirrors {
+                width: 20%;
+                margin: auto;
+            }
+
+            .evolve {
+                width: 20%;
+                margin: auto;
+            }
+
+        }
+
+        .flex-section-discografia-2 {
+            display: flex;
+            justify-content: space-evenly;
+
+            .origins {
+                width: 35%;
+            }
+
+            .mercury {
+                width: 35%;
+            }
+        }
+
+        iframe {
+            width: 250px;
+        }
+    }
+
+    .footer-discografia {
+        background-color: rgb(145, 171, 95);
+        border-color: rgb(20, 18, 18);
+        border-style: double;
+        width: 100vw;
+        margin: auto;
+        text-align: $alinear-al-centro;
+        margin-top: 10px;
+
+        .logo-izq {
+            position: $posicion-absoluta;
+            left: 13px;
+            width: 80px;
+            height: 60px;
+        }
+
+        .logo-der {
+            position: $posicion-absoluta;
+            right: 13px;
+            width: 80px;
+            height: 60px;
+        }
+
+        h4 {
+            text-align: $alinear-al-centro;
+            font-size: 18px;
+            text-decoration: underline;
+            margin-bottom: 4px;
+        }
+
+        p {
+            text-decoration: underline;
+            margin-bottom: 8px;
+        }
+
+        a {
+            margin: 8px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .body-galeria {
+        background-color: rgb(217, 217, 185);
+        overflow-x: hidden;
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                width: 60px;
+                height: 60px;
+            }
+
+            .simbolo-der {
+                width: 60px;
+                height: 60px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 7px;
+                    margin: 5px 2px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .footer-galeria {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 10px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 18px;
+                text-decoration: underline;
+                margin-bottom: 4px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 8px;
+            }
+
+            a {
+                margin: 8px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .body-contacto {
+        background-color: rgb(217, 217, 185);
+
+        nav {
+            text-align: center;
+
+            .simbolo-izq {
+                width: 60px;
+                height: 60px;
+            }
+
+            .simbolo-der {
+                width: 60px;
+                height: 60px;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 7px;
+                    margin: 5px 2px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .footer-contacto {
+            background-color: rgb(145, 171, 95);
+            border-color: rgb(20, 18, 18);
+            border-style: double;
+            width: 100vw;
+            margin: auto;
+            text-align: $alinear-al-centro;
+            margin-top: 10px;
+
+            .logo-izq {
+                position: $posicion-absoluta;
+                left: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            .logo-der {
+                position: $posicion-absoluta;
+                right: 13px;
+                width: 80px;
+                height: 60px;
+            }
+
+            h4 {
+                text-align: $alinear-al-centro;
+                font-size: 18px;
+                text-decoration: underline;
+                margin-bottom: 4px;
+            }
+
+            p {
+                text-decoration: underline;
+                margin-bottom: 8px;
+            }
+
+            a {
+                margin: 8px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

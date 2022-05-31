@@ -24,16 +24,19 @@
             @extend .simbolo-der;
         }
 
-        a {
-            @extend .nav-a;
-
-            &:hover {
-                @extend .hover;
+        div {
+            @extend .div-a;
+            a {
+                @extend .nav-a;
+    
+                &:hover {
+                    @extend .hover;
+                }
             }
         }
     }
 
-    .grid-main-discografia {
+    .flex-main-discografia {
         h1 {
             font-size: 60px;
             line-height: 200px;
@@ -50,31 +53,31 @@
             text-align: center;
         }
 
-        .grid-section-discografia {
-            display: grid;
-            grid-template-areas:
-                "night-visions smoke-mirrors evolve"
-                "origins mercury none";
-            padding: 0% 10% 10% 10%;
+        .flex-section-discografia-1 {
+            display: flex;
+            justify-content: space-around;
 
             .night-visions {
-                grid-area: night-visions;
+                width: 25%;
             }
-
             .smoke-mirrors {
-                grid-area: smoke-mirrors;
+                width: 25%;
             }
-
             .evolve {
-                grid-area: evolve;
+                width: 25%;
             }
+            
+        }
+
+        .flex-section-discografia-2 {
+            display: flex;
+            justify-content: space-evenly;
 
             .origins {
-                grid-area: origins;
+                width: 35%;
             }
-
             .mercury {
-                grid-area: mercury;
+                width: 35%;
             }
         }
     }
@@ -83,9 +86,10 @@
         background-color: rgb(145, 171, 95);
         border-color: rgb(20, 18, 18);
         border-style:double;
-        width: 75vw;
+        width: 100%;
         margin: auto;
         text-align: $alinear-al-centro;
+        margin-top: 30px;
 
         h4 {
             @extend .footer-h4;

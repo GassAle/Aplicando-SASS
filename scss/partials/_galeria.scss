@@ -24,11 +24,14 @@
             @extend .simbolo-der;
         }
 
-        a {
-            @extend .nav-a;
-
-            &:hover {
-                @extend .hover;
+        div {
+            @extend .div-a;
+            a {
+                @extend .nav-a;
+    
+                &:hover {
+                    @extend .hover;
+                }
             }
         }
     }
@@ -46,10 +49,14 @@
             text-decoration: underline;
             font-size: 40px;
         }
+        
+        .fotos-grupo, .fotos-conciertos {
+            width: 70%;
+            margin: auto;
+        }
 
-        .fotos-conciertos .foto-concierto-2 {
-            width: 675px;
-            height: 450px;
+        img {
+            height: 400px;
         }
     }
 
@@ -57,9 +64,10 @@
         background-color: rgb(145, 171, 95);
         border-color: rgb(20, 18, 18);
         border-style:double;
-        width: 75vw;
+        width: 100%;
         margin: auto;
         text-align: $alinear-al-centro;
+        margin-top: 30px;
 
         h4 {
             @extend .footer-h4;

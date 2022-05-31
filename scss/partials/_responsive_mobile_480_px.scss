@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
     .body-index {
         background-color: rgb(217, 217, 185);
 
@@ -6,33 +6,34 @@
             text-align: center;
 
             .simbolo-izq {
-                position: $posicion-absoluta;
-                left: 0px;
                 width: 50px;
                 height: 50px;
             }
 
             .simbolo-der {
-                position: $posicion-absoluta;
-                right: 0px;
                 width: 50px;
                 height: 50px;
             }
 
-            a {
-                color: #141212;
-                text-decoration: none;
-                font-size: 15px;
-                border-color: rgb(20, 18, 18);
-                border-style: groove;
-                padding: 5px;
-                margin: 3px 1px;
-                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-                transition: color, 2s;
+            div {
+                display: flex;
+                justify-content: space-evenly;
 
-                &:hover {
-                    color: rgba(244, 234, 234, 0.903);
-                    font-style: italic;
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 15px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 5px;
+                    margin: 3px 1px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
                 }
             }
         }
@@ -54,12 +55,12 @@
             div {
                 display: flex;
                 flex-direction: column-reverse;
-                margin-top: 25px;
+                margin-top: 40px;
             }
 
             img {
-                padding-top: 10px;
-                height: 250px;
+                padding-top: 20px;
+                height: 260px;
                 margin: auto;
             }
 
@@ -67,7 +68,7 @@
                 font-size: 15px;
                 line-height: 20px;
                 width: 300px;
-                margin-left: 75px;
+                margin: auto;
                 padding: 7px;
                 border: 2px double black;
             }
@@ -80,7 +81,6 @@
             width: 100vw;
             margin: auto;
             text-align: $alinear-al-centro;
-            margin-top: 40px;
 
             .logo-izq {
                 position: $posicion-absoluta;
@@ -118,6 +118,7 @@
             }
         }
     }
+
     .body-historia {
         background-color: rgb(217, 217, 185);
 
@@ -125,62 +126,66 @@
             text-align: center;
 
             .simbolo-izq {
-                position: $posicion-absoluta;
-                left: 0px;
                 width: 50px;
                 height: 50px;
             }
 
             .simbolo-der {
-                position: $posicion-absoluta;
-                right: 0px;
                 width: 50px;
                 height: 50px;
             }
 
-            a {
-                color: #141212;
-                text-decoration: none;
-                font-size: 15px;
-                border-color: rgb(20, 18, 18);
-                border-style: groove;
-                padding: 5px;
-                margin: 3px 1px;
-                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-                transition: color, 2s;
+            div {
+                display: flex;
+                justify-content: space-evenly;
 
-                &:hover {
-                    color: rgba(244, 234, 234, 0.903);
-                    font-style: italic;
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 15px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 5px;
+                    margin: 3px 1px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
                 }
             }
+
+
         }
 
         .main-historia {
             h1 {
-                font-size: 25px;
+                font-size: 30px;
                 text-decoration: underline;
                 margin-top: 20px;
                 @include texto-al-centro;
             }
-    
+
             .article-inicios {
                 h2 {
                     @include texto-al-centro;
-                    font-size: 20px;
+                    font-size: 25px;
                     text-decoration: underline;
                     margin-top: 10px;
                     margin-bottom: 10px;
                 }
-    
+
                 p {
-                    font-size: 15px;
+                    font-size: 20px;
                     line-height: 20px;
                     width: 350px;
                     margin-left: 50px;
                 }
-    
+
             }
+
             .article-exito {
                 h2 {
                     @include texto-al-centro;
@@ -189,7 +194,7 @@
                     margin-bottom: 8px;
                     margin-top: 8px;
                 }
-    
+
                 p {
                     font-size: 20px;
                     line-height: 20px;
@@ -252,38 +257,39 @@
             text-align: center;
 
             .simbolo-izq {
-                position: $posicion-absoluta;
-                left: 0px;
                 width: 50px;
                 height: 50px;
             }
 
             .simbolo-der {
-                position: $posicion-absoluta;
-                right: 0px;
                 width: 50px;
                 height: 50px;
             }
 
-            a {
-                color: #141212;
-                text-decoration: none;
-                font-size: 15px;
-                border-color: rgb(20, 18, 18);
-                border-style: groove;
-                padding: 5px;
-                margin: 3px 1px;
-                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-                transition: color, 2s;
+            div {
+                display: flex;
+                justify-content: space-evenly;
 
-                &:hover {
-                    color: rgba(244, 234, 234, 0.903);
-                    font-style: italic;
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 15px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 5px;
+                    margin: 3px 1px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
                 }
             }
         }
 
-        .grid-main-discografia {
+        .flex-main-discografia {
             h1 {
                 font-size: 30px;
                 line-height: 100px;
@@ -291,44 +297,51 @@
                 text-decoration: underline;
                 text-align: center;
             }
-    
+
             h2 {
                 font-size: 20px;
-                line-height: 50px;
+                line-height: 25px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 text-decoration: underline;
+                margin-left: 130%;
                 text-align: center;
             }
-    
-            .grid-section-discografia {
-                display: grid;
-                grid-template-areas:
-                    "night-visions"
-                    "smoke-mirrors"
-                    "evolve"
-                    "origins"
-                    "mercury";
-                padding: 0% 10% 10% 10%;
-    
+
+            .flex-section-discografia-1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 50%;
+
                 .night-visions {
-                    grid-area: night-visions;
+                    h2 {
+                        margin-left: 170%;
+                    }
                 }
-    
-                .smoke-mirrors {
-                    grid-area: smoke-mirrors;
-                }
-    
+
                 .evolve {
-                    grid-area: evolve;
+                    h2 {
+                        margin-left: 170%;
+                    }
                 }
-    
-                .origins {
-                    grid-area: origins;
-                }
-    
+            }
+
+            .flex-section-discografia-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 45%;
+
                 .mercury {
-                    grid-area: mercury;
+                    h2 {
+                        width: 100px;
+                        margin-left: 100%;
+                    }
                 }
+            }
+
+            iframe {
+                width: 300px;
             }
         }
 
@@ -384,57 +397,58 @@
             text-align: center;
 
             .simbolo-izq {
-                position: $posicion-absoluta;
-                left: 0px;
                 width: 50px;
                 height: 50px;
             }
 
             .simbolo-der {
-                position: $posicion-absoluta;
-                right: 0px;
                 width: 50px;
                 height: 50px;
             }
 
-            a {
-                color: #141212;
-                text-decoration: none;
-                font-size: 15px;
-                border-color: rgb(20, 18, 18);
-                border-style: groove;
-                padding: 5px;
-                margin: 3px 1px;
-                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-                transition: color, 2s;
+            div {
+                display: flex;
+                justify-content: space-evenly;
 
-                &:hover {
-                    color: rgba(244, 234, 234, 0.903);
-                    font-style: italic;
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 15px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 5px;
+                    margin: 3px 1px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
                 }
             }
         }
 
         .main-galeria {
             text-align: center;
-    
+
             h1 {
                 margin-top: 20px;
                 text-decoration: underline;
                 font-size: 30px;
             }
-    
+
             h2 {
+                margin-top: 40px;
                 text-decoration: underline;
                 font-size: 20px;
             }
-    
+
             img {
-                padding-right: 20px;
                 width: 200px;
                 height: 200px;
             }
-            
+
         }
 
         .footer-galeria {
@@ -445,6 +459,8 @@
             margin: auto;
             text-align: $alinear-al-centro;
             margin-top: 170px;
+            position: $posicion-absoluta;
+            bottom: 0;
 
             .logo-izq {
                 position: $posicion-absoluta;
@@ -490,68 +506,79 @@
             text-align: center;
 
             .simbolo-izq {
-                position: $posicion-absoluta;
-                left: 0px;
                 width: 50px;
                 height: 50px;
             }
 
             .simbolo-der {
-                position: $posicion-absoluta;
-                right: 0px;
                 width: 50px;
                 height: 50px;
             }
 
-            a {
-                color: #141212;
-                text-decoration: none;
-                font-size: 15px;
-                border-color: rgb(20, 18, 18);
-                border-style: groove;
-                padding: 5px;
-                margin: 3px 1px;
-                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
-                transition: color, 2s;
+            div {
+                display: flex;
+                justify-content: space-evenly;
 
-                &:hover {
-                    color: rgba(244, 234, 234, 0.903);
-                    font-style: italic;
+                a {
+                    color: #141212;
+                    text-decoration: none;
+                    font-size: 15px;
+                    border-color: rgb(20, 18, 18);
+                    border-style: groove;
+                    padding: 5px;
+                    margin: 3px 1px;
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
+                    transition: color, 2s;
+
+                    &:hover {
+                        color: rgba(244, 234, 234, 0.903);
+                        font-style: italic;
+                    }
                 }
             }
         }
 
         .main-contacto {
-        width: 300px;
-        margin: auto;
-        margin-top: 50px;
-        text-align: center;
-
-        h1 {
-            font-size: 25px;
-            text-decoration: underline;
-        }
-
-        form {
-            margin-top: 25px;
-        }
-
-        label,
-        .opinion {
-            color: rgba(0, 0, 0, 0.916);
-            font-weight: 600;
-        }
-
-        textarea {
             width: 300px;
-            height: 65px;
-            transition: 2s all;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
 
-            &:focus {
-                width: 280px;
-                font-size: 20px;
+            h1 {
+                font-size: 25px;
+                text-decoration: underline;
             }
-        }
+
+            form {
+                margin-top: 25px;
+            }
+
+            label,
+            .opinion {
+                color: rgba(0, 0, 0, 0.916);
+                font-weight: 600;
+            }
+
+            textarea {
+                width: 300px;
+                height: 65px;
+                transition: 2s all;
+
+                &:focus {
+                    width: 280px;
+                    font-size: 20px;
+                }
+            }
+
+            .input-enviar,
+            .input-limpiar {
+                margin-top: 15px;
+            }
+
+            .input-limpiar {
+                width: 150px;
+                text-align: center;
+            }
         }
 
         .footer-contacto {

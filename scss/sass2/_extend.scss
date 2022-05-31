@@ -5,17 +5,18 @@
 }
 
 .simbolo-izq {
-    position: $posicion-absoluta;
-    left: 150px;
     width: 80px;
     height: 80px;
 }
 
 .simbolo-der {
-    position: $posicion-absoluta;
-    right: 150px;
     width: 80px;
     height: 80px;
+}
+
+.div-a {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-a {
@@ -25,9 +26,10 @@
     border-color: rgb(20, 18, 18);
     border-style:groove;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 5px 1px;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.443), rgba(128, 128, 128, 0.754));
     transition: color, 2s;
+    height: 10%;
 }
 
 .hover {
@@ -39,10 +41,10 @@
     background-color: rgb(145, 171, 95);
     border-color: rgb(20, 18, 18);
     border-style:double;
-    width: 75vw;
-    margin: auto;
+    width: 100%;
     text-align: $alinear-al-centro;
-    margin-top: 73px;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-h4 {

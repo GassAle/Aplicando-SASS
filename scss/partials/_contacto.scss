@@ -24,11 +24,14 @@
             @extend .simbolo-der;
         }
 
-        a {
-            @extend .nav-a;
-
-            &:hover {
-                @extend .hover;
+        div {
+            @extend .div-a;
+            a {
+                @extend .nav-a;
+    
+                &:hover {
+                    @extend .hover;
+                }
             }
         }
     }
@@ -70,10 +73,11 @@
         background-color: rgb(145, 171, 95);
         border-color: rgb(20, 18, 18);
         border-style:double;
-        width: 75vw;
+        width: 100%;
         margin: auto;
         text-align: $alinear-al-centro;
-        margin-top: 159px;
+        position: absolute;
+        bottom: 0;
 
         h4 {
             @extend .footer-h4;
